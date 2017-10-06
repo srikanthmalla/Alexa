@@ -8,7 +8,8 @@ cd speech_recognition
 sudo apt-get install python-pyaudio python3-pyaudio
 sudo python setup.py install
 cd examples
-python audio_transcribe.py```
+python audio_transcribe.py
+```
 
 ## Start using the Voice Assistant
 
