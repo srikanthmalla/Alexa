@@ -15,4 +15,6 @@ python audio_transcribe.py
 
 It will run in the background, when you call alexa you will see a box on right top saying recording..
 
+## Dependencies
 
+bs4 (beautiful soup 4)
