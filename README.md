@@ -5,7 +5,6 @@
 ```
 git clone https://github.com/Uberi/speech_recognition.git
 cd speech_recognition
-<!--sudo apt-get install python-pyaudio python3-pyaudio-->
 sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip install pyaudio==0.2.11
 sudo python setup.py install
 cd examples
