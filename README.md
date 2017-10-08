@@ -17,5 +17,8 @@ It will run in the background, when you call alexa you will see a box on right t
 
 ## Dependencies
 
-sudo pip install bs4 (beautiful soup 4)
+(beautiful soup 4) sudo pip install bs4
+
+(pynotify) sudo pip install pynotify
+
 sudo apt-get install google-chrome (install adblock extension in chrome)
