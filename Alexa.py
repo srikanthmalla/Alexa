@@ -1,14 +1,12 @@
-import speech_recognition as sr
-from modules.youtube import ytsearch, ytplay
-from modules.notifications import Notification
-notification=Notification()
-# Record Audio
-r = sr.Recognizer()
-with sr.Microphone() as source:
-    notification.recording('youtube')
-    audio = r.listen(source)
-txt=r.recognize_google(audio,language="en-US")
-print('searching:',txt)
-yt_link=ytsearch(txt)
-print(yt_link)
-ytplay(yt_link)
+from scripts.record import *
+
+hot_word=False
+while(1):
+	try:
+		if hot_word==True:
+			success=record_command()
+			hot_word=success
+		else:
+			hot_word=record_alexa()
+	except (KeyboardInterrupt, SystemExit):
+	    raise

@@ -1,8 +1,8 @@
-import pynotify
+import notify2
 
 class Notification():
     def recording(self,active_module):
-        pynotify.init('Alexa')
+        notify2.init('Alexa')
         title='Recording'
-        n=pynotify.Notification('Recording',active_module)
+        n=notify2.Notification('Recording',active_module)
         n.show()

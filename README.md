@@ -13,12 +13,14 @@ python audio_transcribe.py
 
 ## Start using the Voice Assistant
 
-It will run in the background, when you call alexa you will see a box on right top saying recording..
+python Alexa.py
 
 ## Dependencies
 
-(beautiful soup 4) sudo pip install bs4
-
-(pynotify) sudo pip install pynotify
+(notify2) sudo pip install notify2
 
 sudo apt-get install google-chrome (install adblock extension in chrome)
+
+these are usually installed by default:
+
+playsound, bs4 (module name: beautiful soup 4)
