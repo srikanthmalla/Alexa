@@ -13,7 +13,12 @@ python audio_transcribe.py
 
 ## Start using the Voice Assistant
 
-python Alexa.py
+```
+ python Alexa.py  
+```
+call Alexa. when it hears you, it will respond by saying yes.
+
+commands to say: youtube (anything you want to search)
 
 ## Dependencies
 
