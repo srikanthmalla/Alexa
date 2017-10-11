@@ -18,14 +18,14 @@ python audio_transcribe.py
 ```
 call Alexa. when it hears you, it will respond by saying yes.
 
-commands to say: youtube (anything you want to search)
+commands to say: youtube (anything video you want to search)
+
+youtube song (anysong you want to play on back end)
 
 ## Dependencies
 
-(notify2) sudo pip install notify2
-
 sudo apt-get install google-chrome (install adblock extension in chrome)
 
-these are usually installed by default:
+these modules are needed to install run `./setup.sh`:
 
-playsound, bs4 (module name: beautiful soup 4)
+notify2, playsound, bs4, vlc, pafy, git+https://github.com/Khang-NT/youtube-dl.git
