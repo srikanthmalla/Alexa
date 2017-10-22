@@ -20,12 +20,12 @@ call Alexa. when it hears you, it will respond by saying yes.
 
 commands to say: youtube (anything video you want to search)
 
-youtube song (anysong you want to play on back end)
+youtube music (anysong/music you want to play on back end)
 
 ## Dependencies
 
 sudo apt-get install google-chrome (install adblock extension in chrome)
 
-these modules are needed to install run `./setup.sh`:
+these modules are needed to install, just run (this will automatically install these) `./setup.sh`:
 
 notify2, playsound, bs4, vlc, pafy, git+https://github.com/Khang-NT/youtube-dl.git
