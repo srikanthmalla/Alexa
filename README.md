@@ -29,3 +29,7 @@ sudo apt-get install google-chrome (install adblock extension in chrome)
 these modules are needed to install, just run (this will automatically install these) `./setup.sh`:
 
 notify2, playsound, bs4, vlc, pafy, git+https://github.com/Khang-NT/youtube-dl.git
+
+### TODO:
+
+when playing music, that procedure taking memory not listening to alexa command. So, may be start parallel processes.
