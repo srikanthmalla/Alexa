@@ -29,3 +29,9 @@ def musicplay(link):
     p=vlc.MediaPlayer(audio_url)
     p.play()
     return p
+def videoplay(link):
+    video=pafy.new(str(link))
+    video_url=video.getbest().url
+    p=vlc.MediaPlayer(video_url)
+    p.play()
+    return p
