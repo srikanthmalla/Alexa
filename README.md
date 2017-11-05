@@ -8,7 +8,10 @@ cd speech_recognition
 sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip install pyaudio==0.2.11
 sudo python setup.py install
 cd examples
+#test this package
 python audio_transcribe.py
+python microphone_recognition.py
+#back to Alexa installation
 cd
 git clone git@github.com:srikanthmalla/Alexa.git
 cd Alexa
