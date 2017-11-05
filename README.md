@@ -1,6 +1,6 @@
 # Alexa (Linux Voice Assistant)
 
-## Install Speech Recognition module (this uses google speech api)
+## Install Speech Recognition module (this uses google speech api) and Alexa
 
 ```
 git clone https://github.com/Uberi/speech_recognition.git
@@ -9,7 +9,12 @@ sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && sudo pip 
 sudo python setup.py install
 cd examples
 python audio_transcribe.py
+cd
+git clone git@github.com:srikanthmalla/Alexa.git
+cd Alexa
+./setup.sh
 ```
+ffmpeg  is also needed
 
 ## Start using the Voice Assistant
 
