@@ -18,18 +18,20 @@ python audio_transcribe.py
 ```
 call Alexa. when it hears you, it will respond by saying yes.
 
-commands to say: youtube (anything video you want to search)
-
-youtube music (anysong/music you want to play on back end)
+commands to try: music californication (this will play the song on back end as parallel process)
 
 ## Dependencies
 
-sudo apt-get install google-chrome (install adblock extension in chrome)
-
-these modules are needed to install, just run (this will automatically install these) `./setup.sh`:
+These modules are needed to install, just run `./setup.sh` (this will automatically install these):
 
 notify2, playsound, bs4, vlc, pafy, git+https://github.com/Khang-NT/youtube-dl.git
 
+## List of Module :
+
+Youtube-Music (command: music ----)
+Youtube-Video (command: video ----)
+
 ### TODO:
 
-when playing music, that procedure taking memory not listening to alexa command. So, may be start parallel processes.
+Add more modules and intelligence
+
